@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+    
+    position: fixed;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+nav a{
+    color: #eba00a;
+}
+nav a:hover{
+    color: #b88a30;  
+}
+nav .logo{
+    font-family: 'Niconne', cursive ;   
+}
+nav .links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .links .contact{
+    margin-left: 2rem;
+}
+.home h1{  
+    margin-top: 25vh; 
+}
+.about h5, .specialization h5 , .home h1{
+    font-family: 'Niconne', cursive ;   
+    font-size: 5vw;
+    color: #f0af2d;
+}
+.home h6{
+    font-size: 1.5vw;
+}
+ .about-text button, .home button{
+    outline: none;
+    border: 2px solid #f0af2d ;
+    background-color: #f0af2d;
+    color: white;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    font-weight: bold;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.home button:hover ,.about-text button:hover{
+    border: 2px solid #f0af2d ;
+    background-color: transparent;
+    color: #f0af2d ;
+}
+
+.latest-design button{
+    outline: none;
+    border: 2px solid #f0af2d ;
+    color: #f0af2d;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    font-weight: bold;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.latest-design button:hover {
+   
+    background-color: #f0af2d;
+    color: white ;
+}
+
+.home-img{
+    position: relative;
+    height: 80vh;
+    background-image:
+    url('https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=755&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.home-img:hover{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+.about .heading , .specialization .heading{
+    font-family: 'Niconne', cursive ; 
+}
+.card{
+    border: none;
+}
+.card-body{
+    cursor: pointer;
+}
+.card img{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+
+}
+.card img:hover{
+    transition: 2s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .about-img img{
+    height: 20vh;
+    background-image: url('./images/about.png');
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+.about-img img:hover{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about-text h5{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.about-text p{
+    font-size: 0.8rem;
+    line-height: 21px;
+}
+
+.getintouch{
+    height: 50vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/939/436/963/paper-background-wrinkled-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services img:hover{
+    transition: 2s ease-in-out;
+    transform: rotate(360deg);
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -ms-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.s1 p{
+    text-transform: uppercase;
+}
+
+.contact-page{
+    height: 50vh;
+    background-image: url('https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer a{
+    color: black;
+    text-align: center;
+}
+footer a:hover{
+    color: black;
+}
+footer li{
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.social-links{
+    background-color: rgb(240, 240, 240);
+}
+.social-links a{
+    color: #f0af2d;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.social-links a:hover{
+    color: #d39518;
+    font-weight: bold;
+}
+
+.contact-sec:hover{
+    transition: 1s ease-in-out;
+    box-shadow: 0px 2px 1px #f0af2d57;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.latest-design-img img{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.latest-design-img img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+
+
+
