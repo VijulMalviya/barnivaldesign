@@ -1,0 +1,22 @@
+@import "style.css";
+
+
+
+@media only screen and (max-width:767px){
+
+nav .links{
+    justify-content: center;
+}
+.about h5,.specialization h5 , .home h1{   
+    font-size: 12vw;
+}
+.home h6{
+    font-size: 4vw;
+}
+.home button{
+    font-size: 4vw;
+}
+.contact-img{
+    display: none;
+}
+}
